@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Requirement Form | SoftRays Global</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/styles.css?v=20260314" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="../index.html">SoftRays Global</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+        <nav class="site-nav">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="sectors.html">Sectors</a>
+          <a href="contact.html">Contact</a>
+          <a href="requirements.html" class="active">Requirement Form</a>
+          <a href="ecard.html">E-Card</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container split">
+        <div>
+          <p class="kicker">Project Discovery</p>
+          <h1>Client Requirement Form</h1>
+          <p>
+            Share your software requirement details. This helps us prepare an accurate proposal,
+            timeline, and delivery model for your business.
+          </p>
+          <ul>
+            <li>Response in 24 business hours</li>
+            <li>NDA-friendly process available</li>
+            <li>Architecture and budget guidance included</li>
+          </ul>
+        </div>
+
+        <form class="card contact-form requirement-form" id="requirementForm">
+          <div class="grid-2">
+            <label>Full Name<input type="text" name="full_name" required /></label>
+            <label>Business Email<input type="email" name="email" required /></label>
+            <label>Company Name<input type="text" name="company" required /></label>
+            <label>Industry
+              <select name="industry" required>
+                <option value="">Select industry</option>
+                <option>Healthcare</option>
+                <option>Finance / FinTech</option>
+                <option>Retail / eCommerce</option>
+                <option>Logistics</option>
+                <option>Education</option>
+                <option>Manufacturing</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+
+          <label>What software do you want us to build?
+            <textarea name="software_goal" rows="3" required placeholder="Example: Customer portal + admin dashboard + mobile app"></textarea>
+          </label>
+
+          <div class="grid-2">
+            <label>Project Type
+              <select name="project_type" required>
+                <option value="">Select type</option>
+                <option>New Product Development</option>
+                <option>Existing Product Upgrade</option>
+                <option>Legacy System Modernization</option>
+                <option>AI / Automation Enhancement</option>
+              </select>
+            </label>
+            <label>Target Platforms
+              <select name="platforms" required>
+                <option value="">Select platform</option>
+                <option>Web</option>
+                <option>Mobile (iOS/Android)</option>
+                <option>Web + Mobile</option>
+                <option>Desktop / Internal Tooling</option>
+              </select>
+            </label>
+          </div>
+
+          <label>Key Features Needed
+            <textarea name="key_features" rows="4" placeholder="List 3-10 key features"></textarea>
+          </label>
+
+          <div class="grid-2">
+            <label>Expected Users
+              <select name="user_volume">
+                <option value="">Select volume</option>
+                <option>Up to 1,000 users</option>
+                <option>1,000 - 10,000 users</option>
+                <option>10,000 - 100,000 users</option>
+                <option>100,000+ users</option>
+              </select>
+            </label>
+            <label>Budget Range
+              <select name="budget_range" required>
+                <option value="">Select budget</option>
+                <option>Under €10,000</option>
+                <option>€10,000 - €25,000</option>
+                <option>€25,000 - €50,000</option>
+                <option>€50,000 - €100,000</option>
+                <option>€100,000+</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="grid-2">
+            <label>Preferred Start Time
+              <select name="start_time" required>
+                <option value="">Select timeline</option>
+                <option>Immediately</option>
+                <option>Within 2-4 weeks</option>
+                <option>Within 1-2 months</option>
+                <option>Planning phase only</option>
+              </select>
+            </label>
+            <label>Need NDA?
+              <select name="nda">
+                <option>No</option>
+                <option>Yes</option>
+              </select>
+            </label>
+          </div>
+
+          <label>Existing Systems / Integrations (optional)
+            <textarea name="integrations" rows="3" placeholder="Example: SAP, Salesforce, Stripe, Dynamics"></textarea>
+          </label>
+
+          <label>Additional Notes
+            <textarea name="notes" rows="3" placeholder="Any constraints, deadlines, compliance needs"></textarea>
+          </label>
+
+          <button class="btn" type="submit">Submit Requirement</button>
+          <p class="form-note" id="requirementNote"></p>
+        </form>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-grid"><p>© 2026 SoftRays Global</p><p>Ireland HQ | India Delivery Center</p><p class="footer-links"><a href="mailto:hello@softraysglobal.com">hello@softraysglobal.com</a></p><p class="social-links"><a href="https://www.linkedin.com/company/softrays-global/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://www.instagram.com/softraysglobal/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/softraysglobal/" target="_blank" rel="noopener noreferrer">Facebook</a></p></div></footer>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
