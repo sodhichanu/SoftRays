@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visiting Card | SoftRays Global</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header no-print">
+      <div class="container nav-wrap">
+        <a class="brand" href="../index.html">SoftRays Global</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+        <nav class="site-nav">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="sectors.html">Sectors</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="cta-row no-print"><button class="btn" onclick="window.print()">Print Card</button></div>
+        <div class="visit-card-grid">
+          <section class="visit-card front">
+            <h2>SoftRays Global</h2>
+            <p>Software Consulting and Engineering</p>
+            <p>Ireland HQ | India Delivery Center</p>
+          </section>
+          <section class="visit-card back">
+            <p><strong>Web:</strong> sodhichanu.github.io/SoftRays</p>
+            <p><strong>Email:</strong> hello@softraysglobal.com</p>
+            <p><strong>Phone:</strong> +353 87 297 3627</p>
+            <img
+              class="mini-qr"
+              src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fsodhichanu.github.io%2FSoftRays%2F"
+              alt="SoftRays website QR code"
+            />
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer no-print"><div class="container footer-grid"><p>© 2026 SoftRays Global</p><p>Ireland HQ | India Delivery Center</p></div></footer>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
