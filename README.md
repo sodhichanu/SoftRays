@@ -1,4 +1,4 @@
-# SoftRays Global Website
+# Zynovibe Studio Website
 
 Static multi-page website for your software services company (Ireland HQ + India delivery center).
 
@@ -61,7 +61,7 @@ Every future `git push` auto-publishes updates.
 Every push to `main` auto-deploys on Netlify.
 
 ## Next Steps
-- Connect custom domain (for example `softraysglobal.com`)
+- Connect custom domain (for example `zynovibestudio.com`)
 - Add backend for contact form (email/API)
 - Add case studies, testimonials, and pricing
 - Add analytics (GA4/Plausible)

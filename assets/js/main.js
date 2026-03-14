@@ -46,7 +46,7 @@ if (requirementForm && requirementNote) {
       `Additional Notes: ${get('notes')}`,
     ];
 
-    const mailto = `mailto:hello@softraysglobal.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\\n'))}`;
+    const mailto = `mailto:hello@zynovibestudio.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\\n'))}`;
     window.location.href = mailto;
 
     requirementNote.textContent = 'Requirement captured. Your email app should open now to send the details.';
